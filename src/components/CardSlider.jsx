@@ -30,8 +30,8 @@ const CardSlider = ({ cardData }) => {
         </SplideTrack>
 
         <div className="splide__arrows">
-          <button className="splide__arrow splide__arrow--prev text-white bg-transparent text-2xl drop-shadow-xl disabled:hidden"><i class="fa-solid fa-chevron-left"></i></button>
-          <button className="splide__arrow splide__arrow--next text-white bg-transparent text-2xl drop-shadow-xl disabled:hidden"><i class="fa-solid fa-chevron-right"></i></button>
+          <button className="splide__arrow splide__arrow--prev text-white bg-transparent text-2xl drop-shadow-[0_0_2px_rgba(0,0,0,1)] disabled:hidden"><i class="fa-solid fa-chevron-left"></i></button>
+          <button className="splide__arrow splide__arrow--next text-white bg-transparent text-2xl drop-shadow-[0_0_2px_rgba(0,0,0,1)] disabled:hidden"><i class="fa-solid fa-chevron-right"></i></button>
         </div>
       </Splide>
     </div>
