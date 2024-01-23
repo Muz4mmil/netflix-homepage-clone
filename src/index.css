@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header-bg-solid{
+        @apply  bg-gradient-to-b from-black to-[#141414]
+    }
+    .header-bg{
+        @apply  bg-gradient-to-b from-black to-transparent
+    }
+    body{
+        background: #141414;
+    }
+}
